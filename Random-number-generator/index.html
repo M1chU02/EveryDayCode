@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random number generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Random Number Generator</h1>
+    <div id="form">
+      <h2>Set range:</h2>
+      <label for="min ">Min: </label>
+      <input id="min" type="number" min="0" placeholder="0" />
+      <label for="max">Max: </label>
+      <input id="max" type="number" min="0" placeholder="9999" />
+      <input
+        id="generateBtn"
+        type="button"
+        value="Generate "
+        onclick="Random()"
+      />
+    </div>
+    <p id="resault"></p>
+    <script src="script.js"></script>
+  </body>
+</html>

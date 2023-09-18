@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #303030;
+  color: white;
+}
+
+* {
+  color: white;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+#form {
+  row-gap: 1em;
+  padding-bottom: 1rem;
+  background-color: #505050;
+  border: 2px solid white;
+  border-radius: 30px;
+  width: 40%;
+}
+
+input[type="number"] {
+  outline: none;
+  border: none;
+  background-color: #808080;
+  color: white;
+}
+input[type="number"]::placeholder {
+  color: #505050;
+}
+
+#generateBtn {
+  background-color: blueviolet;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#resault {
+  width: 40%;
+  padding: 1rem 0 1rem 0;
+  background-color: #505050;
+  border: 2px solid white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
