@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 2.5rem;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+#container {
+  background-color: #333;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+}
+
+h1 {
+  padding: 0.5em;
+}
+
+#colorDisplay {
+  color: white;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#options {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.guessBtn {
+  width: 30%;
+  height: auto;
+  aspect-ratio: 1/1;
+  border-radius: 30px;
+  background-color: #333;
+  color: white;
+}
+
+#reset {
+  width: 30%;
+  height: auto;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 3rem;
+  margin: 1rem;
+  border-radius: 20px;
+}
+#reset:hover {
+  background-color: #0052aa;
+}
