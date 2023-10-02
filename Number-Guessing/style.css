@@ -1,0 +1,90 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body,
+h1,
+p,
+input,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+h1 {
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem 0;
+  font-size: 3.5rem;
+  cursor: default;
+}
+
+#settingsEl {
+  margin-top: 2rem;
+}
+
+input[type="number"] {
+  width: 5rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+#rangeBtn {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#guessEl {
+  margin-top: 2rem;
+}
+
+#clearBtn {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#guess {
+  width: 10rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+#guessBtn {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#previousEl {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dialogueElement {
+  width: 50%;
+  padding: 15px;
+}
