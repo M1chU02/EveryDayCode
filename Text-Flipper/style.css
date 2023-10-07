@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+  font-size: 2.5em;
+}
+
+h1 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1em;
+  text-align: center;
+  outline: none;
+}
+
+input[type="text"]:read-only {
+  background-color: #f0f0f0;
+  cursor: default;
+}
+
+#text {
+  margin-bottom: 20px;
+}
