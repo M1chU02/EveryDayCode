@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+      rel="stylesheet"
+    />
+    <title>Image Slider</title>
+  </head>
+  <body>
+    <div class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <div class="img_box">
+              <img src="/Image-Slider/img/1.jpg" />
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="img_box">
+              <img src="/Image-Slider/img/2.jpg" />
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="img_box">
+              <img src="/Image-Slider/img/3.jpg" />
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="img_box">
+              <img src="/Image-Slider/img/4.jpg" />
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="img_box">
+              <img src="/Image-Slider/img/5.jpg" />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new Splide(".splide", {
+          type: "loop",
+          drag: "free",
+          focus: "center",
+          perPage: 3,
+          autoScroll: true,
+          autoplay: true,
+          interval: 1500,
+        }).mount();
+      });
+    </script>
+  </body>
+</html>
