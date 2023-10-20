@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Flashcard Quiz App</title>
+  </head>
+  <body>
+    <section id="create">
+      <h2>Create Flashcards</h2>
+      <textarea id="front" placeholder="Front side"></textarea>
+      <textarea id="back" placeholder="Back side"></textarea>
+      <button id="add">Add Flashcard</button>
+      <div id="import-export">
+        <input type="file" id="import-file" accept=".json" />
+        <button id="import">Import Flashcards</button>
+        <button id="export">Export Flashcards</button>
+      </div>
+      <button id="start-studying">Start Studying</button>
+    </section>
+
+    <section id="study" style="display: none">
+      <h2>Study Flashcards</h2>
+      <div id="flashcard">
+        <p id="front-card"></p>
+        <input type="text" id="back-input" placeholder="Your answer" />
+      </div>
+      <button id="check">Check Answer</button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
