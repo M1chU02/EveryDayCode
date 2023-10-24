@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Note-Taking App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Simple Note-Taking App</h1>
+      <div class="notes">
+        <div class="note">
+          <button class="delete-button">Delete</button>
+          <div class="note-content" contenteditable="true">
+            Your note here...
+          </div>
+          <input class="tag-input" type="text" placeholder="Add tags" />
+        </div>
+      </div>
+      <button id="add-button">Add Note</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
