@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Filter Tool</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Image Filter Tool</h1>
+    <input type="file" id="fileInput" accept="image/*" />
+    <div id="filters">
+      <button id="grayscale">Grayscale</button>
+      <button id="sepia">Sepia</button>
+      <button id="invert">Invert</button>
+      <button id="brightness">Brightness</button>
+      <input
+        type="range"
+        id="brightnessSlider"
+        min="0"
+        max="200"
+        step="1"
+        value="100"
+      />
+      <input
+        type="number"
+        id="brightnessValue"
+        min="0"
+        max="200"
+        step="1"
+        value="100"
+      />
+      <button id="contrast">Contrast</button>
+      <input
+        type="range"
+        id="contrastSlider"
+        min="0"
+        max="200"
+        step="1"
+        value="100"
+      />
+      <input
+        type="number"
+        id="contrastValue"
+        min="0"
+        max="200"
+        step="1"
+        value="100"
+      />
+      <button id="reset">Reset</button>
+    </div>
+    <canvas id="canvas" style="display: none"></canvas>
+    <div id="previewContainer">
+      <img
+        id="filteredImage"
+        src=""
+        alt="Filtered Image"
+        style="max-width: 400px; max-height: 400px"
+      />
+    </div>
+    <a id="download" style="display: none">
+      <button>Download</button>
+    </a>
+    <script src="script.js"></script>
+  </body>
+</html>
