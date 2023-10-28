@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text Encryption/Decryption Tool</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Text Encryption/Decryption Tool</h1>
+    <div class="container">
+      <label for="text">Enter Text:</label>
+      <textarea id="text" rows="5"></textarea>
+
+      <label for="shift">Enter Shift Value:</label>
+      <input type="number" id="shift" min="1" max="25" value="1" />
+
+      <div class="btn-container">
+        <button onclick="encrypt()">Encrypt</button>
+        <button onclick="decrypt()">Decrypt</button>
+      </div>
+
+      <label for="result">Result:</label>
+      <textarea id="result" rows="5" readonly></textarea>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
