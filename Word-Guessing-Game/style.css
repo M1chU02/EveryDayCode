@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#word-container {
+  margin: 20px;
+}
+
+#word-display {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#guess-input {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#check-button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+#message {
+  font-weight: bold;
+  color: green;
+}
