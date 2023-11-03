@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Music Visualizer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="visualizer">
+      <canvas id="canvas" width="500" height="500"></canvas>
+    </div>
+    <input type="file" id="musicInput" accept=".mp3" onchange="loadMusic()" />
+    <audio id="audio" controls>
+      <source src="" type="audio/mpeg" />
+    </audio>
+    <script src="script.js"></script>
+  </body>
+</html>
