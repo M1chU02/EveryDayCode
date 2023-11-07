@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #cedada;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  background: #4a6666;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: rgb(64, 64, 64) 5px 5px;
+}
+
+#fibCount {
+  color: black;
+  padding: 5px 0px;
+}
+
+#genBtn {
+  background: #3b6f6f;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#fibEl {
+  inline-size: 600px;
+  overflow-wrap: break-word;
+}
