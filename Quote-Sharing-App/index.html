@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quote Sharing App</title>
+  </head>
+  <body>
+    <div class="quote-container">
+      <textarea id="quote" placeholder="Enter your quote"></textarea>
+      <select id="background">
+        <option value="/Quote-Sharing-App/img/1.jpg">Background 1</option>
+        <option value="/Quote-Sharing-App/img/2.jpg">Background 2</option>
+        <option value="/Quote-Sharing-App/img/3.jpg">Background 3</option>
+        <option value="/Quote-Sharing-App/img/4.jpg">Background 4</option>
+        <option value="/Quote-Sharing-App/img/5.jpg">Background 5</option>
+      </select>
+      <select id="font">
+        <option value="Arial, sans-serif">Arial</option>
+        <option value="Times New Roman, serif">Times New Roman</option>
+      </select>
+      <button id="generate">Generate</button>
+    </div>
+    <div class="quote-image">
+      <img id="generated-image" alt="Generated Quote" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
