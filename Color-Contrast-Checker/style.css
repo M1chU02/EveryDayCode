@@ -1,0 +1,41 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 20px;
+}
+
+#container {
+  max-width: 400px;
+  margin: auto;
+}
+
+#colorInputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#result {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#contrastRatio {
+  font-size: 1.2em;
+}
+
+.colorInput {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

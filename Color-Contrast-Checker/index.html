@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Color Contrast Checker</title>
+  </head>
+  <body>
+    <div id="container">
+      <h2>Color Contrast Checker</h2>
+      <div id="colorInputs">
+        <input type="color" id="color1" class="colorInput" value="#000000" />
+        <input type="color" id="color2" class="colorInput" value="#ffffff" />
+        <button onclick="checkContrast()">Check Contrast</button>
+      </div>
+      <div id="result">
+        <p id="contrastRatio"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
