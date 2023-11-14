@@ -1,0 +1,27 @@
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.countdown-container {
+  text-align: center;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+}
+
+#countdown div {
+  margin: 0 20px;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 24px;
+}
