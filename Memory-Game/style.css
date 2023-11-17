@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.card {
+  width: 150px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.card:hover {
+  border: 1px solid black;
+}
+
+#board {
+  width: 640px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#restartBtn {
+  padding: 10px;
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 2rem;
+}
