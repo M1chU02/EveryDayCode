@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Time Zone Converter</title>
+  </head>
+  <body>
+    <div id="converter">
+      <h2>Time Zone Converter</h2>
+      <label for="fromTimeZone">From Time Zone:</label>
+      <select id="fromTimeZone">
+        <option value="UTC">UTC</option>
+        <option value="America/New_York">Eastern Time (ET)</option>
+        <option value="America/Chicago">Central Time (CT)</option>
+      </select>
+
+      <br />
+
+      <label for="fromTime">From Time:</label>
+      <input type="datetime-local" id="fromTime" />
+
+      <br />
+
+      <label for="toTimeZone">To Time Zone:</label>
+      <select id="toTimeZone">
+        <option value="UTC">UTC</option>
+        <option value="America/New_York">Eastern Time (ET)</option>
+        <option value="America/Chicago">Central Time (CT)</option>
+      </select>
+
+      <br />
+
+      <label for="toTime">Converted Time:</label>
+      <input type="text" id="toTime" readonly />
+
+      <br />
+
+      <button onclick="convertTime()">Convert Time</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
