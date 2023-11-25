@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #87ceeb;
+}
+
+#aquarium {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background-color: #add8e6;
+  border: 5px solid #4682b4;
+  overflow: hidden;
+}
+
+.fish,
+.plant,
+.decoration {
+  position: absolute;
+  cursor: move;
+}
+
+.fish {
+  width: 50px;
+  height: 30px;
+  background-color: #ffd700;
+  clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+}
+
+.plant {
+  width: 20px;
+  height: 100px;
+  background-color: #228b22;
+}
+
+.decoration {
+  width: 30px;
+  height: 30px;
+  background-color: #a52a2a;
+  border-radius: 50%;
+}
+
+#ui {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
