@@ -1,0 +1,38 @@
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#game-container {
+  text-align: center;
+}
+
+#word-display {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#user-input {
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#timer {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
