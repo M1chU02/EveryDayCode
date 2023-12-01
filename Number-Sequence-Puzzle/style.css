@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#puzzle-container {
+  text-align: center;
+}
+
+#sequence-input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
+
+#wrong {
+  margin-top: 10px;
+  font-weight: bold;
+  color: red;
+}
