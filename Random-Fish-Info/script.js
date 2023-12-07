@@ -2,7 +2,7 @@ const url = "https://fish-species.p.rapidapi.com/fish_api/fishes";
 const options = {
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": "273f9d9d20mshaa12fd14ddae52cp1fc484jsn77e76e9a41ff",
+    "X-RapidAPI-Key": "",
     "X-RapidAPI-Host": "fish-species.p.rapidapi.com",
   },
 };
