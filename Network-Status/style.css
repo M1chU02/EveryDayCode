@@ -1,0 +1,56 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+#container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+#logo {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+#info {
+  text-align: center;
+  padding: 20px;
+}
+
+#message {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#refresh {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+#refresh:hover {
+  background-color: #27ae60;
+}
