@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #3498db;
+  background-size: cover;
+  background-position: bottom;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
+
+h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.selection-info {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 18px;
+  color: #ecf0f1;
+}
+
+.info-span {
+  padding: 0 20px;
+}
+
+.player-selected,
+.computer-selected {
+  color: #03dddc;
+}
+
+.score {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 24px;
+  color: #ecf0f1;
+}
+
+.score-container {
+  display: flex;
+  justify-content: center;
+}
+
+.score-container .score-beginning {
+  margin: 0 20px;
+}
+
+.selections {
+  text-align: center;
+}
+
+.selections h2 {
+  margin: 2rem 0;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #ecf0f1;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.selections button,
+.try-again {
+  margin: 0 20px;
+  padding: 15px 30px;
+  outline: none;
+  background-color: #2ecc71;
+  border: 2px solid #27ae60;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  color: #ecf0f1;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.selections button:hover,
+.try-again:hover {
+  background-color: #27ae60;
+}
+
+.try-again {
+  display: none;
+  margin: 20px auto;
+}
+
+.coin-images {
+  text-align: center;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.image-heads,
+.image-tails {
+  height: 100px;
+  margin: 10px;
+  display: none;
+}
+
+.result {
+  text-align: center;
+  font-size: 24px;
+  color: #ecf0f1;
+}
+
+.result .win {
+  margin-top: 30px;
+  color: #2ecc71;
+  font-weight: 700;
+  display: none;
+}
+
+.result .lose {
+  margin-top: 30px;
+  color: #e74c3c;
+  font-weight: 700;
+  display: none;
+}
