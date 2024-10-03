@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a1a2e;
+}
+
+.barchart {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  height: 200px;
+}
+
+.bar {
+  width: 30px;
+  background: linear-gradient(to top, #4a4e69, #9a8c98);
+  animation: graph 2s ease-in-out forwards;
+  border-radius: 4px 4px 0 0;
+}
+
+@keyframes graph {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--bar-height);
+  }
+}
+
+.bar:nth-child(1) {
+  --bar-height: 120px;
+  animation-delay: 0.1s;
+}
+.bar:nth-child(2) {
+  --bar-height: 150px;
+  animation-delay: 0.2s;
+}
+.bar:nth-child(3) {
+  --bar-height: 90px;
+  animation-delay: 0.3s;
+}
+.bar:nth-child(4) {
+  --bar-height: 180px;
+  animation-delay: 0.4s;
+}
+.bar:nth-child(5) {
+  --bar-height: 135px;
+  animation-delay: 0.5s;
+}
+
+.bar:hover {
+  box-shadow: 0 0 15px rgba(154, 140, 152, 0.6);
+  transition: box-shadow 0.3s ease-in-out;
+}
